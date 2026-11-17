@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://samuelgathemia.github.io/samuelgathemia/sitemap.xml

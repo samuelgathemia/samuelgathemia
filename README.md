@@ -1,154 +1,115 @@
-# Samuel Gathemia — Embedded Systems Engineering Portfolio
+# Samuel Gathemia
 
-Personal portfolio site for **Engineer Samuel Gathemia** — Embedded Systems &
-Firmware Engineer (ESP32, STM32, FreeRTOS, ESP-IDF, IoT).
+### Electrical & Electronics Engineering Student | Embedded Systems | Firmware Development | IoT
 
-Built with **Vite + React + TypeScript + Tailwind CSS v4**. Deploys as a
-static SPA to GitHub Pages.
+I build at the intersection of **hardware and software**, with a particular interest in embedded systems, firmware engineering, and connected devices.
 
-Live: <https://samuelgathemia.github.io/samuelgathemia/>
+My work revolves around understanding how systems operate beneath the abstractions — from microcontroller peripherals and communication protocols to real-time operating systems and hardware interfaces.
 
-## Local development
+I'm particularly interested in building reliable, modular, and scalable engineering solutions that solve practical problems.
 
-```bash
-bun install
-bun run dev       # http://localhost:8080
-bun run build     # production build → dist/
-bun run preview   # preview the built site
-```
+\<p align="left">   \<a href="[https://samuelgathemia.github.io/samuelgathemia/](https://samuelgathemia.github.io/samuelgathemia/)">     \<img src="[https://img.shields.io/badge/Portfolio-Visit-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white](https://img.shields.io/badge/Portfolio-Visit-0A66C2?style=for-the-badge\&logo=googlechrome\&logoColor=white)" />   \</a>   \<a href="[https://www.linkedin.com/in/samuel-gathemia-mieee-ba18842a2/](https://www.linkedin.com/in/samuel-gathemia-mieee-ba18842a2/)">     \<img src="[https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)" />   \</a>   \<a href="[https://github.com/samuelgathemia](https://github.com/samuelgathemia)">     \<img src="[https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge\&logo=github\&logoColor=white)" />   \</a> \</p>
 
-Node/npm work too: replace `bun` with `npm`/`pnpm` as appropriate.
+---
 
-## Project structure
+## About Me
 
-```
-.
-├── public/               # Static assets copied verbatim
-│   ├── favicon.svg
-│   ├── robots.txt
-│   ├── sitemap.xml
-│   ├── 404.html          # GitHub Pages SPA fallback
-│   └── resume.pdf        # replace with your real résumé
-├── src/
-│   ├── main.tsx          # Entry point (BrowserRouter, basename from Vite base)
-│   ├── App.tsx           # Route table
-│   ├── styles.css        # Tailwind v4 + design tokens (dark-only)
-│   ├── data/             # All editable content lives here
-│   │   ├── profile.ts
-│   │   ├── skills.ts
-│   │   ├── projects.ts
-│   │   ├── philosophy.ts
-│   │   ├── blog.ts
-│   │   ├── experience.ts
-│   │   └── certifications.ts
-│   ├── components/
-│   │   ├── layout/       # Navbar, Footer, ScrollProgress, ScrollToTop
-│   │   ├── sections/     # Hero, About, Skills, FeaturedProjects, ...
-│   │   ├── PCBBackground.tsx
-│   │   ├── ProjectCard.tsx
-│   │   └── SectionHeading.tsx
-│   ├── pages/            # Route components
-│   └── hooks/
-├── index.html            # SEO meta, JSON-LD, font <link>, SPA-restore script
-├── vite.config.ts        # base "/samuelgathemia/" in production
-└── .github/workflows/deploy.yml
-```
+- 🎓 Electrical & Electronics Engineering student at **South Eastern Kenya University (SEKU)**.
+- 🔌 Interested in embedded systems, microcontrollers, PCB design, and electronics.
+- ⚙️ Developing firmware using **C, C++, ESP-IDF, and FreeRTOS**.
+- 📡 Exploring IoT architectures, wireless communication, and connected devices.
+- 🐧 Linux enthusiast with an interest in low-level computing and open-source engineering.
+- 🌱 Interested in applying engineering and intelligent systems to agriculture, renewable energy, and automation.
 
-## Editing content
+## Technical Interests & Technologies
 
-All content is data-driven — no need to touch components to change what the
-site says.
+**Embedded Systems & Firmware**
 
-| To change …                     | Edit                          |
-| ------------------------------- | ----------------------------- |
-| Name, title, socials, location  | `src/data/profile.ts`         |
-| Skills, categories, proficiency | `src/data/skills.ts`          |
-| Projects (list + detail pages)  | `src/data/projects.ts`        |
-| Engineering philosophy cards    | `src/data/philosophy.ts`      |
-| Blog articles                   | `src/data/blog.ts`            |
-| Timeline / experience / edu    | `src/data/experience.ts`      |
-| Certifications                  | `src/data/certifications.ts`  |
-| Résumé PDF                      | `public/resume.pdf`           |
-| GitHub username for repos feed  | `profile.githubUser` in `profile.ts` |
+\<p>
+&#x20; \<img src="[https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white](https://img.shields.io/badge/C-00599C?style=flat-square\&logo=c\&logoColor=white)" />
+&#x20; \<img src="[https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white](https://img.shields.io/badge/C++-00599C?style=flat-square\&logo=cplusplus\&logoColor=white)" />
+&#x20; \<img src="[https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white](https://img.shields.io/badge/ESP32-E7352C?style=flat-square\&logo=espressif\&logoColor=white)" />
+&#x20; \<img src="[https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white](https://img.shields.io/badge/STM32-03234B?style=flat-square\&logo=stmicroelectronics\&logoColor=white)" />
+&#x20; \<img src="[https://img.shields.io/badge/FreeRTOS-00599C?style=flat-square](https://img.shields.io/badge/FreeRTOS-00599C?style=flat-square)" />
+&#x20; \<img src="[https://img.shields.io/badge/ESP--IDF-E7352C?style=flat-square&logo=espressif&logoColor=white](https://img.shields.io/badge/ESP--IDF-E7352C?style=flat-square\&logo=espressif\&logoColor=white)" />
+\</p>
 
-## Design system
+**Electronics & Hardware Design**
 
-Dark-only, engineering-lab aesthetic. Semantic tokens in `src/styles.css`:
+\<p>
+&#x20; \<img src="[https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white](https://img.shields.io/badge/KiCad-314CB0?style=flat-square\&logo=kicad\&logoColor=white)" />
+&#x20; \<img src="[https://img.shields.io/badge/PCB_Design-198754?style=flat-square](https://img.shields.io/badge/PCB_Design-198754?style=flat-square)" />
+&#x20; \<img src="[https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white](https://img.shields.io/badge/Arduino-00979D?style=flat-square\&logo=arduino\&logoColor=white)" />
+\</p>
 
-- `--background` `#0D1117` — near-black canvas
-- `--card` `#161B22` — surfaces
-- `--border` `#30363D`
-- `--foreground` `#E6EDF3` / `--muted-foreground` `#8B949E`
-- `--primary` `#22D3EE` (cyan), `--accent` `#10B981` (emerald)
+**Programming & Development Tools**
 
-Fonts: **JetBrains Mono** for headings & code, **Inter** for body — loaded via
-`<link>` in `index.html` (Tailwind v4 requires filesystem `@import`s only).
+\<p>
+&#x20; \<img src="[https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)" />
+&#x20; \<img src="[https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black](https://img.shields.io/badge/Linux-FCC624?style=flat-square\&logo=linux\&logoColor=black)" />
+&#x20; \<img src="[https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)" />
+&#x20; \<img src="[https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white](https://img.shields.io/badge/GitHub-181717?style=flat-square\&logo=github\&logoColor=white)" />
+&#x20; \<img src="[https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square\&logo=visualstudiocode\&logoColor=white)" />
+\</p>
 
-Never hardcode Tailwind color utilities like `text-white` / `bg-black`; use
-the semantic tokens (`text-foreground`, `bg-card`, `text-primary`, …).
+**Communication Protocols & Systems**
 
-## GitHub API integration
+`UART` · `SPI` · `I²C` · `CAN` · `MQTT` · `HTTP/HTTPS` · `Wi-Fi` · `BLE`
 
-`src/components/sections/GitHubStats.tsx` fetches
-`https://api.github.com/users/samuelgathemia/repos?sort=updated` at runtime
-— no token, no build step, no hardcoded repos. Two embedded
-`github-readme-stats` cards render the stats/top-languages summary.
+## Selected Projects
 
-To point the site at a different account, change `profile.githubUser` in
-`src/data/profile.ts`.
+### 1. ESP32 Sensor Dashboard
 
-## Deployment (GitHub Pages)
+**Embedded Systems | IoT | ESP32**
 
-### Automated (recommended)
+An ESP32-based environmental monitoring system featuring temperature and humidity sensing, a locally hosted web dashboard, and remote LED control.
 
-The workflow at `.github/workflows/deploy.yml` builds and deploys on every
-push to `main`.
+[View Repository →](https://github.com/samuelgathemia/Arduino-techx)
 
-1. Push this repo to GitHub as `samuelgathemia/samuelgathemia`.
-2. In the repo, **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-3. Push to `main`. The action builds `dist/` and publishes it.
+### 2. AgroNet
 
-### Different repo name
+**Agriculture | Technology | Innovation**
 
-The Vite `base` is set to `/samuelgathemia/` in `vite.config.ts`. If you host
-under a different repo name, update **both**:
+An initiative exploring how technology and open-source engineering can contribute to modern agricultural solutions.
 
-- `vite.config.ts` → `base: "/<repo-name>/"`
-- `public/404.html` → `segmentCount = 1` stays for a project page (one path
-  segment before the SPA route); leave as-is unless you deploy at a
-  user/organisation root (`<user>.github.io`), in which case set `base: "/"`
-  and `segmentCount = 0`.
-- `public/robots.txt` and `public/sitemap.xml` — update the absolute URLs.
+[View Repository →](https://github.com/samuelgathemia/AgroNet)
 
-### Manual deploy
+### 3. Engineering Portfolio
 
-```bash
-bun run build
-# publish contents of dist/ to the gh-pages branch by any means you like
-```
+**React | TypeScript | Tailwind CSS**
 
-## GitHub Pages + SPA routing
+My personal engineering portfolio, documenting my technical interests, projects, and development journey.
 
-GitHub Pages only serves static files, so a deep link like
-`/samuelgathemia/projects/wifi-manager` would normally 404. The standard
-`404.html` + `index.html` handshake (rafgraph/spa-github-pages) is included:
+[Explore Portfolio →](https://samuelgathemia.github.io/samuelgathemia/)
 
-- `public/404.html` rewrites the URL into `?/…` and reloads `index.html`.
-- The inline script in `index.html` unpacks that query and restores the
-  original path before React Router mounts.
+---
 
-Nothing to configure — it just works.
+## Engineering Philosophy
 
-## Accessibility & performance
+I believe good engineering goes beyond making something work.
 
-- Semantic HTML (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`).
-- Visible focus rings using `--ring`.
-- `prefers-reduced-motion` respected in `styles.css`.
-- Route-level code splitting via `React.lazy`.
-- Images `loading="lazy"`, PDF served as `<object>` fallback.
-- SEO: per-page `<title>` / description via `useDocumentHead`, JSON-LD Person
-  schema in `index.html`, Open Graph + Twitter Card meta.
+It involves understanding the underlying principles, designing maintainable systems, making deliberate technical decisions, and continuously improving through experimentation.
 
-## License
+My long-term interests include:
 
-MIT — see `LICENSE`.
+- **Embedded Firmware:** Bare-metal programming, peripheral drivers, MCU architecture, and RTOS-based systems.
+- **Hardware Engineering:** PCB development, circuit design, prototyping, and hardware-software integration.
+- **Intelligent Systems:** IoT, automation, machine learning, and edge computing.
+- **Engineering for Impact:** Renewable energy, agricultural technology, and practical technological solutions.
+
+## Let's Connect
+
+I'm interested in connecting with engineers, researchers, developers, and innovators working on meaningful technology.
+
+\<p>
+&#x20; \<a href="[https://www.linkedin.com/in/samuel-gathemia-mieee-ba18842a2/](https://www.linkedin.com/in/samuel-gathemia-mieee-ba18842a2/)">LinkedIn\</a> •
+&#x20; \<a href="[https://github.com/samuelgathemia](https://github.com/samuelgathemia)">GitHub\</a> •
+&#x20; \<a href="[https://samuelgathemia.github.io/samuelgathemia/](https://samuelgathemia.github.io/samuelgathemia/)">Portfolio\</a>
+\</p>
+
+---
+
+\<p align="center">
+&#x20; \<i>Building, learning, experimenting, and engineering solutions one system at a time.\</i>
+\</p>
+
