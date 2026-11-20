@@ -21,3 +21,4 @@ Electrical & Electronics Engineer focused on embedded systems, firmware developm
 
 - [Arduino-techx](https://github.com/samuelgathemia/Arduino-techx) — ESP32 environmental monitoring with a web dashboard and remote control.
 - [Engineering Portfolio](https://samuelgathemia.github.io/samuelgathemia/) — Selected work, technical interests, and development journey.
+- [ESP32_IDF Projects](https://github.com/samuelgathemia/ESP32-IDF) — Projects focusing on IOT.
