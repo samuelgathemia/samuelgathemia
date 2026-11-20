@@ -1,6 +1,6 @@
 # Samuel Gathemia
 
-Electrical & Electronics Engineering student at **South Eastern Kenya University**, focused on embedded systems, firmware development, and IoT.
+Electrical & Electronics Engineer focused on embedded systems, firmware development, PCB Design, and IoT.
 
 [Portfolio](https://samuelgathemia.github.io/samuelgathemia/) · [LinkedIn](https://www.linkedin.com/in/samuel-gathemia-mieee-ba18842a2/) · [GitHub](https://github.com/samuelgathemia)
 
@@ -20,5 +20,4 @@ Electrical & Electronics Engineering student at **South Eastern Kenya University
 ## Projects
 
 - [Arduino-techx](https://github.com/samuelgathemia/Arduino-techx) — ESP32 environmental monitoring with a web dashboard and remote control.
-- [AgroNet](https://github.com/samuelgathemia/AgroNet) — Open-source technology for modern agricultural solutions.
 - [Engineering Portfolio](https://samuelgathemia.github.io/samuelgathemia/) — Selected work, technical interests, and development journey.
